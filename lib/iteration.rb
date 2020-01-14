@@ -5,13 +5,13 @@ def join_ingredients(src)
     element_num = 0 
     temp_arr = []
     while element_num < src[index_num].length do
-      temp_arr << src[index_num][element_num]
+      temp_arr.push(src[index_num][element_num])
       element_num += 1
     end 
-    new_arr << "I love #{temp_arr[0]} and #{temp_arr[1]} on my pizza"
+    new_arr << temp_arr
     index_num += 1 
   end 
-  return new_arr
+  return "I love #{new_arr[0]} and #{new_arr[1]} on my pizza"
 end
 
 def find_greater_pair(src)
