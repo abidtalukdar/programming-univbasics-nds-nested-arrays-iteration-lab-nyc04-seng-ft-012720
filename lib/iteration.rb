@@ -22,7 +22,10 @@ def find_greater_pair(src)
   index_num = 0 
   while index_num < src.length do
     element_num = 0 
+    temp_arr = []
+    while element_num < src[index_num].length do
     
+    end  
   end   
 end
 
