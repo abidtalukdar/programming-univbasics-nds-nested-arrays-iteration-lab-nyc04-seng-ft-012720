@@ -27,6 +27,7 @@ def find_greater_pair(src)
         new_arr << src[index_num][element_num + 1]
       else   
         new_arr << src[index_num][element_num]
+      end
       element_num += 2   
     end
     index_num += 1
