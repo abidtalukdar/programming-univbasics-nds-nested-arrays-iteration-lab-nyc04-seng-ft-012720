@@ -5,7 +5,7 @@ def join_ingredients(src)
     element_num = 0 
     temp_arr = []
     while element_num < src[index_num].length do
-      temp_arr << src[index_num][element_num]
+      temp_arr.push(src[index_num][element_num])
       element_num += 1
     end 
     new_arr << "I love #{temp_arr[0]} and #{temp_arr[1]} on my pizza"
