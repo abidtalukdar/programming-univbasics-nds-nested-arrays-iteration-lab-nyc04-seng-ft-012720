@@ -54,6 +54,7 @@ def total_even_pairs(src)
         element_num += src[index_num].length
       end
     end
+    sum += temp_arr
     index_num += 1
   end   
   return sum
