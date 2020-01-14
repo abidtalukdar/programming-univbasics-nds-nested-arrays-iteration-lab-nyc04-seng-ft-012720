@@ -40,17 +40,17 @@ def total_even_pairs(src)
   # As a reminder any number % 2 will return 0 or 1. If the result is 0, then
   # the number was even. Review the operator documentation if you've forgotten
   # this!
-  new_arr = []
+  sum = 0
   index_num = 0 
   while index_num < src.length do
     element_num = 0 
     while element_num < src[index_num].length do
       if src[index_num][element_num] % 2 == 0
-        new_arr << src[index_num][element_num]
+        sum += src[index_num][element_num]
       end
       element_num += 1
     end
     index_num += 1
   end   
-  return new_arr
+  return sum
 end
