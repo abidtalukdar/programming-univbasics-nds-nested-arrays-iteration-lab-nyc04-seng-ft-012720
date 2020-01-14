@@ -13,8 +13,8 @@ def join_ingredients(src)
     temp_arr = []
     while element_num < src[index_num].length do
       temp_arr.push(src[index_num][element_num])
-      element_num+=1
     end 
+    element_num+=1
   end  
 end
 
