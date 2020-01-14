@@ -21,6 +21,7 @@ def find_greater_pair(src)
   new_arr = []
   index_num = 0 
   while index_num < src.length do
+    element_num = 0 
     
   end   
 end
