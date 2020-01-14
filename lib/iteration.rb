@@ -50,7 +50,7 @@ def total_even_pairs(src)
       else
         sum += 0 
       end
-      element_num += 1
+      element_num += 
     end
     index_num += 1
   end   
