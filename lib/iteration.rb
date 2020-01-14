@@ -50,9 +50,9 @@ def total_even_pairs(src)
         temp_arr += src[index_num][element_num]
         element += 1
       else
-        sum += 0 
+        temp_arr = 0
+        element_num += src[index_num].length
       end
-      element_num += src[index_num].length
     end
     index_num += 1
   end   
