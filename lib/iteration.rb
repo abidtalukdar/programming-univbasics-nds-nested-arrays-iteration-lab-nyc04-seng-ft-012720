@@ -22,11 +22,16 @@ def find_greater_pair(src)
   index_num = 0 
   while index_num < src.length do
     element_num = 0 
-    temp_arr = []
     while element_num < src[index_num].length do
-    
-    end  
+      if src[index_num][element_num] < src[index_num][element_num + 1]
+        new_arr << src[index_num][element_num + 1]
+      else   
+        new_arr << src[index_num][element_num]
+      element_num += 2   
+    end
+    index_num += 1
   end   
+  return new_arr
 end
 
 def total_even_pairs(src)
